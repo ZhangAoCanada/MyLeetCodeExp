@@ -45,4 +45,16 @@ def merge(i, j):
         mp[father_j] = father_i 
 ```
 
-## 
+## 栈
+
+纯考数据结构类型的题不多，一般会寄托着一起考某些经典算法，比如出现于[后缀表达式](https://leetcode-cn.com/problems/8Zf90G/)里面的[逆波兰式](https://baike.baidu.com/item/%E9%80%86%E6%B3%A2%E5%85%B0%E5%BC%8F/128437)就是使用栈的方法。
+
+此外，另一种类型的栈，`单调栈`出现的几率可能比普通的`栈`要更大。
+
+## 链表
+
+针对此数据类型，一般考的是`快慢指针找中点`，`快慢指针找重合点`，`reverseLinklist`等。比如，例题[重排链表](https://leetcode-cn.com/problems/LGjMqU/)就包含了其中的两个方法。
+
+链表的考点多侧重于逻辑，比如说链表的差值，倒序等等。
+
+## 排序
