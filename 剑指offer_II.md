@@ -62,3 +62,15 @@ def merge(i, j):
 排序是个比较常见的问题，经典算法像`mergeSort`，`quickSort`等等都得有一定的认知。
 
 除了上述方法，小根堆/大根堆也经常会拿出来考，比如说[数组中第k大的数字](https://leetcode-cn.com/problems/xx4gT2/)。
+
+## dfs 和 bfs
+
+可以看出这两个出现频率可以说是很高了。
+
+**注意**：需要注意的是，有时候会靠一些 dfs/bfs 的变种，比如说题目[开锁密码](https://leetcode-cn.com/problems/zlDJc7/)需要`双向 dfs`去解答。
+
+## 拓扑排序
+
+此方法是针对`有向无环图`的排序方法。对于`无向图`和`有环的有向图`，这个方法无法排序，所以此方法可以去验证数据结构是否为`有向无环图`。例题：[课程顺序](https://leetcode-cn.com/problems/QA2IGt/)。
+
+##
