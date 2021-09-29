@@ -102,7 +102,7 @@ def merge(i, j):
 
 其中`二叉搜索树`比较喜欢考。有的题就喜欢把上面的全综合起来考，比如说[二叉搜索树中的中序后继题解](https://leetcode-cn.com/problems/P5rCT8/solution/tong-guan-jian-2-dfs-by-muluo-2-id3e/)
 
-## 前缀树，又称字典书，活着`Trie`
+## 前缀树，又称字典书，或者`Trie`
 
 这个可以用来检查两个字符串是否相同，活着是否一个是另一个的前缀，例题：[实现前缀树](https://leetcode-cn.com/problems/QC3q1f/)。
 
