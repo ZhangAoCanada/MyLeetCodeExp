@@ -99,3 +99,18 @@ def merge(i, j):
 ## 树
 
 这类题目简单的一般都用`dfs`和`bfs`做；难的就真的随缘了。比如说`前序遍历`，`后序遍历`，`层次遍历`加上`广度优先搜索`，`深度优先搜索`混合着考等等。例题：[二叉搜索树中的中序后继](https://leetcode-cn.com/problems/P5rCT8/)。 
+
+其中`二叉搜索树`比较喜欢考。有的题就喜欢把上面的全综合起来考，比如说[二叉搜索树中的中序后继题解](https://leetcode-cn.com/problems/P5rCT8/solution/tong-guan-jian-2-dfs-by-muluo-2-id3e/)
+
+## 前缀树，又称字典书，活着`Trie`
+
+这个可以用来检查两个字符串是否相同，活着是否一个是另一个的前缀，例题：[实现前缀树](https://leetcode-cn.com/problems/QC3q1f/)。
+
+这个算法的应用也很广，具体使用方式也很花样。
+
+## 堆
+
+问考`大根堆`和`小根堆`哪家强，那得看题目：[和最小的 k 个数对](https://leetcode-cn.com/problems/qn8gGX/)。
+此题厉害在于用`大根堆`和`小根堆`都能解，其中`小根堆`利用了题目中数组的特性而可以更快解答。
+
+
