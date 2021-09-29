@@ -263,7 +263,7 @@ v 5  ...
 
 关于背包的经典例题：
 - [分割等和子集](https://leetcode-cn.com/problems/NUPfPr/)：`0-1背包`
-- [排列的数目](https://leetcode-cn.com/problems/D0F0SV/)：`完全背包`
+- [排列的数目](https://leetcode-cn.com/problems/D0F0SV/)：`完全背包`，是不是amount先，数组循环后才能遍历所有可能性？
 - []()
 - []()
 - []()
