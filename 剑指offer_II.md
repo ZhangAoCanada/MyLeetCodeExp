@@ -1,6 +1,6 @@
 # 一些剑指offer题解中较好的方法
 
-## 找不含相同字符的两个字符串（利用32位二进制储存26个字母）(算属于Hash Map类)
+## BitMask 存字母
 
 此方法即利用一个32位的整数去储存每一个字符串中出现的字母，然后比较两个整数的二进制表示是否相同或不同即可。例题：[单词长度的最大乘积](https://leetcode-cn.com/problems/aseY1I/submissions/)。
 
@@ -33,7 +33,7 @@ for i in range(len(words)):
 mp = {}
 for n in nums:
     mp[n] = n
-# 找到 n 的根结点
+# 找到 n 的根结点
 def findFather(n):
     if mp[n] == n: return n
     return findFather(mp[n])
@@ -73,4 +73,23 @@ def merge(i, j):
 
 此方法是针对`有向无环图`的排序方法。对于`无向图`和`有环的有向图`，这个方法无法排序，所以此方法可以去验证数据结构是否为`有向无环图`。例题：[课程顺序](https://leetcode-cn.com/problems/QA2IGt/)。
 
-##
+## 双指针
+
+这类算法经常会出现在`数组`或者`字符串`的问题中。例题如[数组中和为 0 的三个数](https://leetcode-cn.com/problems/1fGaJU/)和[最多删除一个字符得到回文](https://leetcode-cn.com/problems/RQku0D/)都是很好的例子。
+
+## 关于字符串回文
+
+一般情况下:
+- 如果去判断一个字符串是否回文，可以使用`双指针`；
+- 如果去从一个字符串中找出回文子字符串，可以从中间往两边扩散的方式去寻找。 
+
+## 滑动窗口
+
+又是一个很常见的算法，一般当题目中出现字眼如`连续子序列`的时候，就会考滑动窗口。
+例题：[和大于等于 target 的最短子数组](https://leetcode-cn.com/problems/2VG8Kg/)。
+
+## 二分
+
+二分的本质很简单，就是一个`O(logn)`的搜索算法，其前提是数组是有序的。
+
+现在的题目往往会出二分的变种，比如说[排序数组中只出现一次的数字](https://leetcode-cn.com/problems/skFtm2/)。
