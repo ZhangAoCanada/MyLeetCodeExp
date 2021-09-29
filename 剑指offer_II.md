@@ -113,4 +113,12 @@ def merge(i, j):
 问考`大根堆`和`小根堆`哪家强，那得看题目：[和最小的 k 个数对](https://leetcode-cn.com/problems/qn8gGX/)。
 此题厉害在于用`大根堆`和`小根堆`都能解，其中`小根堆`利用了题目中数组的特性而可以更快解答。
 
+## “简单”的 `DP`
 
+`DP`当之无愧成了现在最难想的算法，个个题目如同脑经急转弯一样。
+
+那些把我做飞的题目：
+- [前 n 个数字二进制中 1 的个数](https://leetcode-cn.com/problems/w3tCBm/})
+- [回文子字符串的个数](https://leetcode-cn.com/problems/a7VOhD/)
+- []()
+- []()
