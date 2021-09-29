@@ -21,6 +21,8 @@ for i in range(len(words)):
 
 此方法可以应用到树结构或者数组中，应用比较广泛。例题：[路径总和III](https://leetcode-cn.com/problems/path-sum-iii/)
 
+还需要注意利用2D几何特征做的`matrix`前缀和，例如：[二维子矩阵的和](https://leetcode-cn.com/problems/O4NDxx/)和[向下的路径节点之和](https://leetcode-cn.com/problems/6eUYwP/)。
+
 ## 并查集
 
 如果题目给出的数据类型是`图`，基本就是用这个方法没得跑了。例题：[最长连续序列](https://leetcode-cn.com/problems/WhsWhI/submissions/0)。
@@ -93,3 +95,7 @@ def merge(i, j):
 二分的本质很简单，就是一个`O(logn)`的搜索算法，其前提是数组是有序的。
 
 现在的题目往往会出二分的变种，比如说[排序数组中只出现一次的数字](https://leetcode-cn.com/problems/skFtm2/)。
+
+## 树
+
+这类题目简单的一般都用`dfs`和`bfs`做；难的就真的随缘了。比如说`前序遍历`，`后序遍历`，`层次遍历`加上`广度优先搜索`，`深度优先搜索`混合着考等等。例题：[二叉搜索树中的中序后继](https://leetcode-cn.com/problems/P5rCT8/)。 
