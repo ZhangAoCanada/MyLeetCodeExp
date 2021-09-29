@@ -262,8 +262,8 @@ v 5  ...
 ```
 
 关于背包的经典例题：
-- []()
-- []()
+- [分割等和子集](https://leetcode-cn.com/problems/NUPfPr/)：`0-1背包`
+- [排列的数目](https://leetcode-cn.com/problems/D0F0SV/)：`完全背包`
 - []()
 - []()
 - []()
