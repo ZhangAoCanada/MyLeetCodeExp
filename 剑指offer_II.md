@@ -261,9 +261,9 @@ v 5  ...
 物品
 ```
 
-关于背包的经典例题：
+### 关于背包的经典例题：
+
 - [分割等和子集](https://leetcode-cn.com/problems/NUPfPr/)：`0-1背包`
-- [排列的数目](https://leetcode-cn.com/problems/D0F0SV/)：`完全背包`，是不是amount先，数组循环后才能遍历所有可能性？
-- []()
-- []()
-- []()
+- [排列的数目](https://leetcode-cn.com/problems/D0F0SV/)：`完全背包`，这一题涉及到排序的问题，所以在使用两个循环语句的时候应该先遍历背包容量，再遍历物品，这样能是的原数组中不同元素的顺序可变。
+- [加减的目标值](https://leetcode-cn.com/problems/YaVDxD/)：明显还不熟练啊。。。
+- [最少的硬币数目](https://leetcode-cn.com/problems/gaM7Ch/)：完全背包两个方向都是可以的啊。。。

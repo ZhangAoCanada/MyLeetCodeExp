@@ -1,21 +1,5 @@
-# Frequently used answers
+# 一些自己刷题时候的小总结
 
-## Binary Search
+## [剑指 offer II](剑指offer_II.md)
 
-**e.g.**: [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
-
-## Back Tracking (depth-first search)
-
-**e.g.**: [Combination Sum](https://leetcode.com/problems/combination-sum/); [Permutations](https://leetcode.com/problems/permutations/submissions/)
-
-## Dynamic Programming (dp)
-
-**e.g.**: [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-
-## Window-based Method
-
-**e.g.**: [Jump Game II](https://leetcode.com/problems/jump-game-ii/submissions/)
-
-## Hash Map
-
-**e.g.**: [Custom Sort String](https://leetcode.com/explore/challenge/card/july-leetcoding-challenge-2021/609/week-2-july-8th-july-14th/3813/)
+这里面有自己对剑指 offer II 的个人小总结和看法，其中不同的算法贴有代表性例题。
