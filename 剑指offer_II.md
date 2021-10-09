@@ -123,6 +123,10 @@ def merge(i, j):
 - [最长公共子序列](https://leetcode-cn.com/problems/qJnOS7/)：所以人老了，这么典型的`DP`没做出来。
 - [字符串交织](https://leetcode-cn.com/problems/IY6buf/)：这个题又双叒叕没想出来，是不是真的老了。。。
 
+## 区间`DP`
+
+比较适用于需要从小区间慢慢往上积累到整体的`DP`算法，目前还是算比较难想的。典型例题：[布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)。
+
 ## 来吧，背包（`0-1背包` 和 `完全背包`）
 
 详细的解释可以在[这里](https://leetcode-cn.com/problems/D0F0SV/solution/tong-guan-jian-2-shuang-bai-bei-bao-dp-b-f33v/)看到。
