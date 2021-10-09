@@ -96,6 +96,10 @@ def merge(i, j):
 
 现在的题目往往会出二分的变种，比如说[排序数组中只出现一次的数字](https://leetcode-cn.com/problems/skFtm2/)。
 
+## 双指针+二分
+
+这类题目喜欢把两个概念参杂起来考，很考验自己对各种方法的理解。例如：[排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/)
+
 ## 树
 
 这类题目简单的一般都用`dfs`和`bfs`做；难的就真的随缘了。比如说`前序遍历`，`序遍历`，`后序层历`加上`广度优先搜索`，`深度优先搜索`混合着考等等。例题：[二叉搜索树中的中序后继](https://leetcode-cn.com/problems/P5rCT8/)。 
